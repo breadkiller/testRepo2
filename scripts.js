@@ -4,7 +4,7 @@ let dayContent = document.getElementById("day");
 let ssContent = document.getElementById("sunset");
 let nightContent = document.getElementById("night");
 
-// day
+// day 22
 if (hour >= 7 && hour < 17) {
   dayContent.style.display = "flex";
   ssContent.style.display = "none"
