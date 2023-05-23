@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Test</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+                <video class = "video" id = "day" loop="true" autoplay="autoplay" controls muted>
+                    <source src="items/day.MP4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <video class = "video" id = "sunset" loop="true" autoplay="autoplay" controls muted>
+                    <source src="items/sunset.MP4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            
+                <video class = "video" id = "night" loop="true" autoplay="autoplay" controls muted>
+                    <source src="items/night.MP4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+        </div>
+
+        <iframe src="items/test.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+        </iframe> 
+        <audio hidden controls autoplay loop>
+            <source src="items/test.mp3" type="audio/mpeg">
+            <p>If you are reading this, it is because your browser does not support the audio element.</p>
+        </audio>
+        <script type="application/javascript" src="scripts.js"></script>
+    </body>
+</html>
